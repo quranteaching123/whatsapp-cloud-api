@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "index.php",  // Replace with your entry point file
+        "use": "@vercel/php"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "index.php"  // Replace with your entry point file
+      }
+    ]
+  }
+  
